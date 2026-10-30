@@ -35,7 +35,7 @@ def oddiy_orta_qiymat(x):
    maxraj=0
    for i in range(len(x)):
       surat+=x[i]
-      maxraj+=i
+      maxraj+=1
 
    return surat/maxraj
 
